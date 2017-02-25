@@ -1,0 +1,42 @@
+
+
+.prin{
+	background: #8F9491;
+	height: auto;
+
+}
+.part1{
+background-color:  #DDD0E4;
+width: 100%;
+height: auto;
+
+}
+
+.part2{
+	background-color:  #000;
+	width: 100%;
+height: 100%;
+
+}
+.part3{
+	background-color:  #342534;
+	width: 100%;
+height: 100%;
+
+}
+
+.borde{
+	background-color: #DDD0E4;
+	height: 100%;
+}
+
+
+
+.navegador{
+	position: absolute;
+	z-index: 999;
+	width: 97.2%;
+	border-radius: 0;
+	opacity: 0.8;
+
+}

@@ -1,0 +1,91 @@
+@font-face{
+font-family:'flexslider-icon';
+src: url('fonts/flexslider-icon.eot');
+src:url('fonts/flexslider-icon.eot?#iefix')format('embedded-opentype'),url('fonts');
+
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.flexslider{
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+.slides{
+height: 50%;
+width: 100%;
+overflow: hidden;
+}
+
+.slides img{
+	width: 100%;
+
+}
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav{
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+.flex-control-nav{
+	width: 100%;
+	text-align: center;
+
+
+}
+.flex-control-nav li{
+display: inline-block;
+margin: 0 6px;
+
+}
+
+.flex-control-nav li a{
+	display: block;
+	background: #777;
+	width:12px; 
+	height:12px;
+	border-radius: 12px;
+	text-indent: -99999px;
+
+}
+.flex-control-nav li a:hover{
+background: #523434;
+
+}
+.flex-control-nav li a.flex-active{
+background: #234;
+
+}
+.flex-direction-nav a{
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	z-index: 999;
+
+
+}
+.flex-direction-nav .flex-prev{
+	left: 0;
+}
+
+
+.flex-direction-nav .flex-next{
+	right: 0;
+}
+
+
+.flex-direction-nav a:before {
+	font-family: "flexslider-icon";
+	font
+
+}
